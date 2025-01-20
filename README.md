@@ -95,5 +95,6 @@ that u can use during running application. The endpoint is:<br>
 http://localhost:8080/swagger-ui/index.html<br>
 <br>
 You can see also case studies without running app in documentation generated with Postman:<br>
+https://documenter.getpostman.com/view/40721497/2sAYQanroi
 
 
