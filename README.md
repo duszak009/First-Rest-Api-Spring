@@ -56,7 +56,7 @@ I will describe them to explain how application work.<br>
    These classes are used during receiving requests. <br>
    In the <b>response</b> package there is a <b>ProductResponse</b>, that is used during sending responses.<br>
 3. In the <b>repository</b> package there is <b>ProductRepository</b> class that is used to store objects of <b>Product<b> classs created.<br>
-4. In the <b>service</b> package there is a <b>ProductService</b> class, that handle operation on each object of <b>Product<b> class.<br>
+4. In the <b>service</b> package there is a <b>ProductService</b> class, that handle operation on each object of <b>Product</b> class.<br>
 5. In the <b>support</b> package there is a <b>ProductMapper</b> class to mapping objects from on to other one.<br>
    In the <b>support</b> package there are also classes to handle <b>exceptions</b>.
 
