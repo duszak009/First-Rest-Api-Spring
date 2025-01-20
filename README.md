@@ -6,6 +6,7 @@
 * [Setup](#setup)
 * [More detailed information about modules](#more-detailed-information-about-modules)
 * [Usage](#usage)
+* [Info about Repository](#info-about-repository)
 
 
 ## General info
@@ -97,4 +98,10 @@ http://localhost:8080/swagger-ui/index.html<br>
 You can see also case studies without running app in documentation generated with Postman:<br>
 https://documenter.getpostman.com/view/40721497/2sAYQanroi
 
-
+## Info about Repository
+The <b>Repository</b> class is empty, but it's working properly. So I will explain here, why it's working.
+The <b>Repository</b> class has annotation @Repository. Thanks to that, the Spring framework know,<br>
+where the repository is located and handle storing process with datasource specified in <b>application.properties file.</b>
+Repository class has implementing JPA interface, that has implemented methods like "save", "findById", "findAll", "delete".<br>
+There is a naming convention to make operations on objects in Repository.<br>
+JPA is handling also mapping java objects to table entities.
