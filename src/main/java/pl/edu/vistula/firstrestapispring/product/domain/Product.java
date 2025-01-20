@@ -1,14 +1,21 @@
 package pl.edu.vistula.firstrestapispring.product.domain;
 
-//klasa reprezentująca podmiot
-//działań głównego pakietu (product )
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
 
+@Entity(name= "products")
 public class Product {
-
+    @Id
+    @GeneratedValue
     private long id;
     private String name;
 
     public Product(String name){ this.name=name; }
+
+    public Product() {
+
+    }
 
     public Long getId(){return id;}
 
