@@ -46,7 +46,7 @@ Products are stored in local database, which is created after running applicatio
 ## More detailed information about classes and packages in project
 Application consists of packages and classes. <br>
 I will describe them to explain how application work.<br>
-1. In the <b>domain</b> package is a class <b>Product<b> with attributes.<br>
+1. In the <b>domain</b> package is a class <b>Product</b> with attributes.<br>
    In this application we will do all operations on objects from this class.<br>
 2. In the <b>api</b> package there's a ProductController, <br>
    that manage with incoming requests and with sending responds.<br>
